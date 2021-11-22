@@ -15,7 +15,7 @@ namespace UnitTestLoginProject
         {
             var Newuser = new User(username, password, DateTime.Today);
             
-            if (password.Length < 16 && username.Length < 16)
+            if (password.Length < 16 && password.Length > 8 && username.Length < 16)
             {
                 Regex regex = new Regex("^(?=.*?[a-öA-Ö])(?=.*?[0-9])(?=.*?[(!”#¤%&/()=?_*’)]).{8,}$");
                 bool validPassword = regex.IsMatch(password);
