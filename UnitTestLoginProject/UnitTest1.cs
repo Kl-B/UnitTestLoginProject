@@ -11,7 +11,10 @@ namespace UnitTestLoginProject
         {
             Loginmanager loginManager = new Loginmanager();
 
-            loginManager.RegisterNewUser("Username", "Password", DateTime.Today);
+            loginManager.RegisterNewUser("Username", "aA_-056hJt%&12", DateTime.Today);
+
+            Assert.IsTrue(loginManager.RegisterNewUser("Username", "aA_-056hJt%&12", DateTime.Today));
+            Assert.IsFalse(loginManager.RegisterNewUser("Username", "password", DateTime.Today));
         }
     }
 }
