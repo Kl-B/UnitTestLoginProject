@@ -7,9 +7,11 @@ namespace UnitTestLoginProject
     public class UnitTest1
     {
         [TestMethod]
-        public void TestMethod1()
+        public void LogIn()
         {
+            Loginmanager loginManager = new Loginmanager();
 
+            loginManager.RegisterNewUser("Username", "Password", DateTime.Today);
         }
     }
 }
