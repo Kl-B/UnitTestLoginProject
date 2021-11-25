@@ -14,11 +14,5 @@ namespace Logic
 
         public static List<User> Users = new List<User>();
 
-        public User(string username, string password, DateTime firstLogIn)
-        {
-            Username = username;
-            Password = password;
-            Firstlogin = firstLogIn;
-        }
     }
 }

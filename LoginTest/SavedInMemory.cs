@@ -1,6 +1,8 @@
-﻿using UnitTestLoginProject;
+﻿using System.Collections.Generic;
+using Logic;
 
-namespace Logic
+
+namespace LoginTest
 {
     public class SavedInMemory : ISave
     {

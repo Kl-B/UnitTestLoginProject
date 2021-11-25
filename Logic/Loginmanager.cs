@@ -6,7 +6,6 @@ using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
-using UnitTestLoginProject;
 
 namespace Logic
 {
@@ -14,7 +13,7 @@ namespace Logic
     {
         public bool RegisterNewUser(string username, string password, DateTime today)
         {
-            var Newuser = new User(username, password, DateTime.Today);
+            var Newuser = new User();
             
             if (password.Length < 16 && password.Length > 8 && username.Length < 16)
             {

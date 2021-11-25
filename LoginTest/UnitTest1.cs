@@ -28,5 +28,8 @@ namespace LoginTest
             Assert.False(loginManager.RegisterNewUser("Username3", "aA-056%&", DateTime.Today));
 
         }
+
+        [Fact]
+
     }
 }
