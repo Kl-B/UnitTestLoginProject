@@ -1,5 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
+using Logic;
 
 namespace UnitTestLoginProject
 {
@@ -9,7 +10,7 @@ namespace UnitTestLoginProject
         [TestMethod]
         public void LogIn()
         {
-            Loginmanager loginManager = new Loginmanager();
+            LoginManager loginManager = new Loginmanager();
 
             loginManager.RegisterNewUser("Username", "aA_-056hJt%&12", DateTime.Today);
 

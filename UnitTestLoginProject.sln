@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestLoginProject", "UnitTestLoginProject\UnitTestLoginProject.csproj", "{12EB7D80-7358-48FF-9762-839A588E6299}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Logic", "Logic\Logic.csproj", "{9CA381EF-066D-494E-A27C-312939C33ACB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginTest", "LoginTest\LoginTest.csproj", "{28379712-10BD-4108-AE12-7E049B3D4110}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{12EB7D80-7358-48FF-9762-839A588E6299}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{12EB7D80-7358-48FF-9762-839A588E6299}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{12EB7D80-7358-48FF-9762-839A588E6299}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{12EB7D80-7358-48FF-9762-839A588E6299}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CA381EF-066D-494E-A27C-312939C33ACB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CA381EF-066D-494E-A27C-312939C33ACB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CA381EF-066D-494E-A27C-312939C33ACB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CA381EF-066D-494E-A27C-312939C33ACB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28379712-10BD-4108-AE12-7E049B3D4110}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28379712-10BD-4108-AE12-7E049B3D4110}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28379712-10BD-4108-AE12-7E049B3D4110}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28379712-10BD-4108-AE12-7E049B3D4110}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
